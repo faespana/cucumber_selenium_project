@@ -11,7 +11,7 @@ into your framework.
 on wikipedia web page , and make the needed assertions to check if the character page is displayed correctly.
 
    -Scenario Outline: Check wikipedia article displayed for Star Wars Characters Given I am an user at the Wikipedia WebPage requesting SW character <number> When I search the requested character name
-   on Wikipedia search page Then I should be able to see the article page correctly displayed for the requested character.
+on Wikipedia search page Then I should be able to see the article page correctly displayed for the requested character.
   -Examples |1| |2| |3| |4| |5| The examples should cover the first 5 characters available on the characters service.
 
 3. Form a scenario to request for a random movie movie using theStar Wars API (Consider only 6 movies are available on the API services, and create a method to request one of them randomly) ,
